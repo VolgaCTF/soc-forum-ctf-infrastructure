@@ -1,0 +1,28 @@
+{
+  "name": "production",
+  "description": "Production environment",
+  "json_class": "Chef::Environment",
+  "chef_type": "environment",
+  "default_attributes": {
+    "dhparam": {
+      "default_key_size": 2048
+    },
+    "latest-nodejs": {
+      "install": "current",
+      "binary": true
+    },
+    "ntp": {
+      "servers": [
+        "0.pool.ntp.org",
+        "1.pool.ntp.org",
+        "2.pool.ntp.org",
+        "3.pool.ntp.org"
+      ]
+    },
+    "modern_nginx": {
+      "install": "mainline",
+      "ssl_configuration": "intermediate",
+      "with_status": true
+    }
+  }
+}

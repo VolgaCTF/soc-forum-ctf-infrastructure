@@ -1,0 +1,15 @@
+{
+  "id": "production",
+  "chat_id": {
+    "encrypted_data": "jHK2c/YQZoB4AdDWPdKVeDAN0MkkCvRii4GC9bu5wbc=\n",
+    "iv": "8SG112mlqZwuJAFtvUsNNg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "bot_access_token": {
+    "encrypted_data": "592BnvDIDJteefVdHQTDdWJ5eV3hQszLVnBQR9Jh2dw=\n",
+    "iv": "REBuPUkbNxJP3YChuTQi+Q==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

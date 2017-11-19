@@ -1,0 +1,48 @@
+{
+  "environment": "production",
+  "run_list": [
+    "recipe[locale::default]",
+    "recipe[build-essential::default]",
+    "recipe[ntp::default]",
+    "recipe[poise-python::default]",
+    "recipe[latest-git::default]",
+    "recipe[dotfiles::default]",
+    "recipe[dhparam::default_key]",
+    "recipe[modern_nginx::default]",
+    "recipe[latest-redis::default]",
+    "recipe[latest-nodejs::default]",
+    "recipe[themis-quals::default]"
+  ],
+  "automatic": {
+    "fqdn": "golf.server.volgactf.org"
+  },
+  "build-essential": {
+    "compile_time": true
+  },
+  "themis-quals": {
+    "customizers": {
+      "soc-forum-ctf": {
+        "github_repository": "VolgaCTF/soc-forum-ctf-customizer",
+        "revision": "master"
+      }
+    },
+    "config": {
+      "domain": "ctf.ib-bank.ru",
+      "secure": true,
+      "customizer": "soc-forum-ctf",
+      "email": {
+        "transport": "mailgun",
+        "sender_name": "SOC-Forum CTF",
+        "sender_address": "info@ctf.ib-bank.ru"
+      },
+      "notifications": {
+        "twitter": false,
+        "telegram": false
+      }
+    },
+    "processes": {
+      "app": 4,
+      "queue": 4
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "production",
+  "users": {
+    "encrypted_data": "CgWZ5RIMEtWZPRWIG5MV6IoUqXnBXmjN+FfvOKehlNxPi5a1wlcRhQAgKfII\nE++BH1iDrqrrkLIu9IwXlqBkIaIsVoyblYJIQ0VLNJAaQMc=\n",
+    "iv": "SKGdDxEhkB2yCNssMwmcIQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

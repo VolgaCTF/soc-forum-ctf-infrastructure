@@ -1,0 +1,149 @@
+DEPENDENCIES
+  build-essential
+  dhparam (~> 1.0.0)
+  dotfiles
+    git: https://github.com/aspyatkin/dotfiles-cookbook
+    revision: 5a1675c593b603fd4c0e6ce6b7ddd0076c662fe9
+    tag: v1.4.0
+  git2
+    git: https://github.com/aspyatkin/git2-cookbook
+    revision: 33e0d02179735822efe7b74f11e6274641644036
+    tag: v1.0.0
+  latest-git
+    git: https://github.com/aspyatkin/latest-git-cookbook
+    revision: cc1b997196c25a34d7df6f43853099d0878a5d7f
+    tag: v1.4.0
+  latest-nodejs
+    git: https://github.com/aspyatkin/latest-nodejs-cookbook
+    revision: 1f6c668d275d347846606bc5011d71375962a5c3
+    tag: v1.5.0
+  latest-redis
+    git: https://github.com/aspyatkin/latest-redis-cookbook
+    revision: a474bcea8bc662288cfccea07914740ff010ce03
+    tag: v1.2.1
+  locale (~> 2.0.1)
+  modern_nginx
+    git: https://github.com/aspyatkin/modern_nginx
+    revision: bf5314821bfdfc7c68a1e410a6fde0d9a81ae687
+    tag: v2.9.0
+  ntp (~> 3.5.2)
+  poise-python (~> 1.6.0)
+  themis-quals
+    git: https://github.com/themis-project/themis-quals-cookbook
+    revision: d60814aa03154f963b11649a214ae93cbea594a7
+    tag: v1.7.1
+
+GRAPH
+  apt (6.1.4)
+  ark (3.1.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+    windows (>= 0.0.0)
+  build-essential (8.0.3)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  chef-sugar (3.6.0)
+  compat_resource (12.19.0)
+  database (4.0.9)
+    postgresql (>= 1.0.0)
+  dhparam (1.0.0)
+  dotfiles (1.4.0)
+    vim (~> 2.0.2)
+    zsh (~> 2.0.0)
+  git (8.0.0)
+    build-essential (>= 0.0.0)
+    homebrew (>= 0.0.0)
+  git2 (1.0.0)
+  graphicsmagick (0.1.0)
+  homebrew (4.2.0)
+  htpasswd (0.2.4)
+    python (>= 0.0.0)
+  instance (2.0.0)
+  latest-git (1.4.0)
+    apt (>= 0.0.0)
+    git (~> 8.0.0)
+  latest-nodejs (1.5.0)
+    nodejs (~> 4.0.0)
+  latest-redis (1.2.1)
+    redisio (~> 2.6.1)
+  locale (2.0.1)
+  logrotate (2.2.0)
+  mingw (2.0.1)
+    seven_zip (>= 0.0.0)
+  modern_nginx (2.9.0)
+    dhparam (~> 1.0.0)
+    logrotate (~> 2.2.0)
+    nginx (~> 7.0.0)
+  multipackage (3.0.30)
+    compat_resource (>= 0.0.0)
+  netdata (0.1.9)
+    yum-epel (>= 0.0.0)
+  nginx (7.0.1)
+    build-essential (>= 0.0.0)
+    compat_resource (>= 12.16.3)
+    ohai (>= 4.1.0)
+    yum-epel (>= 0.0.0)
+    zypper (>= 0.0.0)
+  nodejs (4.0.0)
+    ark (>= 2.0.2)
+    build-essential (>= 0.0.0)
+    compat_resource (>= 12.16)
+  ntp (3.5.2)
+  ohai (5.2.0)
+  openssl (4.4.0)
+    chef-sugar (>= 3.1.1)
+  poise (2.8.1)
+  poise-archive (1.5.0)
+    poise (~> 2.6)
+  poise-languages (2.1.1)
+    poise (~> 2.5)
+    poise-archive (~> 1.0)
+  poise-python (1.6.0)
+    poise (~> 2.7)
+    poise-languages (~> 2.0)
+  postgresql (4.0.6)
+    apt (>= 1.9.0)
+    build-essential (>= 0.0.0)
+    openssl (~> 4.0)
+  python (1.4.6)
+    build-essential (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  redisio (2.6.1)
+    build-essential (>= 0.0.0)
+    selinux_policy (>= 0.0.0)
+    ulimit (>= 0.1.2)
+  selinux_policy (2.0.1)
+    compat_resource (>= 12.16.3)
+  seven_zip (2.0.2)
+    windows (>= 1.2.2)
+  ssh-private-keys (2.0.0)
+  ssh_known_hosts (4.0.0)
+  supervisor (0.4.12)
+    python (>= 0.0.0)
+  themis-quals (1.7.1)
+    database (~> 4.0.9)
+    git (~> 8.0.0)
+    git2 (~> 1.0.0)
+    graphicsmagick (~> 0.1.0)
+    htpasswd (~> 0.2.4)
+    instance (~> 2.0.0)
+    logrotate (~> 2.2.0)
+    netdata (~> 0.1.9)
+    nginx (~> 7.0.0)
+    nodejs (~> 4.0.0)
+    poise-python (~> 1.6.0)
+    postgresql (~> 4.0.6)
+    ssh-private-keys (~> 2.0.0)
+    ssh_known_hosts (~> 4.0.0)
+    supervisor (~> 0.4.12)
+    tls (~> 3.0.0)
+  tls (3.0.0)
+  ulimit (0.4.0)
+  vim (2.0.2)
+  windows (3.4.0)
+    ohai (>= 4.0.0)
+  yum-epel (2.1.2)
+    compat_resource (>= 12.16.3)
+  zsh (2.0.0)
+    multipackage (~> 3.0)
+  zypper (0.4.0)

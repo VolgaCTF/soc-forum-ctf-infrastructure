@@ -1,0 +1,27 @@
+{
+  "id": "production",
+  "access_token": {
+    "encrypted_data": "dtqRoh93zZOyfIjvLdZcIQPAt4g4TVHgL8viCyYPDVY=\n",
+    "iv": "pF/ryPmmfyNUM/cO+4bp5g==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "access_token_secret": {
+    "encrypted_data": "BiV9nUco6nSaBM6EFIVEiVfLP5SA406w0vhw6z6Yy3g=\n",
+    "iv": "sqHBkBP5r1qrke2KYsknzQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "consumer_key": {
+    "encrypted_data": "iJdhpfx71tyTENNjI9gbEarv+3IqTX0x/vsCSnSVvYY=\n",
+    "iv": "Auee5limwjXZm4BFYfVfRg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "consumer_secret": {
+    "encrypted_data": "zHWlM+oaq6eth0dFurcHPsy0d7WYoo00crID1JOT8KY=\n",
+    "iv": "YBZKE6fjIicZaMIAW7terQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
